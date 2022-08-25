@@ -1,0 +1,11 @@
+name: frist workflows
+on:
+  push:
+    branches:
+        - "main"
+jobs:
+  labjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start job
+        run: echo 'Hello'
