@@ -9,3 +9,10 @@ jobs:
     steps:
       - name: Start job
         run: echo 'Hello'
+      - name: Second step
+        run: echo 'Second step'
+  second-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Start Second job
+              run: echo 'Hello Second Job'
