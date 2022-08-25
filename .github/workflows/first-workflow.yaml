@@ -1,6 +1,6 @@
 name: frist workflows
 on:
-  workfolw_dispatch:
+  workflow_dispatch:
   push:
     branches:
         - "main"
